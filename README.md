@@ -59,8 +59,9 @@ cycle cases, and against the simulator's first version (`reference/v2.html`).
 - `vendor/three/`: three.js (MIT licence), only the files the scene uses.
 - `fonts/`: Cormorant Garamond, Figtree, JetBrains Mono and Playfair Display (SIL Open Font License).
 
-The simulator was first built for the music video *Can't Print the Proof*, which plays live in the browser. That
-project keeps the source; its `tools/export_sim.py` writes this folder.
+The simulator was first built for the music video [*Can't Print the Proof*](https://sene1337.github.io/cant-print-the-proof/),
+which plays live in the browser ([code](https://github.com/sene1337/cant-print-the-proof)). That project keeps the
+source; its `tools/export_sim.py` writes this folder.
 
 ## Licence
 
