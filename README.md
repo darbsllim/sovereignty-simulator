@@ -59,6 +59,9 @@ cycle cases, and against the simulator's first version (`reference/v2.html`).
 - `vendor/three/`: three.js (MIT licence), only the files the scene uses.
 - `fonts/`: Cormorant Garamond, Figtree, JetBrains Mono and Playfair Display (SIL Open Font License).
 
+The simulator was first built for the music video *Can't Print the Proof*, which plays live in the browser. That
+project keeps the source; its `tools/export_sim.py` writes this folder.
+
 ## Licence
 
 The files this fork adds are under the MIT licence (`LICENSE`). Bitcoin24's own files (`Bitcoin24 v1.0.xlsm`,
