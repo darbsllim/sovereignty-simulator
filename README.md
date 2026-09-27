@@ -11,7 +11,8 @@ Shirish Jajodia and Chaitanya Jain. It keeps Bitcoin24's history and files as it
 `bitcoin.png`, and Bitcoin24's README (below), at commit 30c97a7.
 
 - **From Bitcoin24:** the bear, base and bull price cases, the macro model of world assets, the asset returns and
-  the five strategies (Normie, BTC 10%, BTC Maxi, Double Maxi, Triple Maxi), re-implemented in JavaScript.
+  the five strategies (Normie, BTC 10%, BTC Maxi, Double Maxi, Triple Maxi), re-implemented in JavaScript. The
+  page offers the first four; Triple Maxi gave way to Double Dipper, below.
   Comments in `js/model.js` cite the workbook cells they come from.
 - **Added here, not in Bitcoin24:**
   - the freedom-year search and the years after it, when you stop earning and live on what you own. While you
@@ -23,7 +24,11 @@ Shirish Jajodia and Chaitanya Jain. It keeps Bitcoin24's history and files as it
   - borrowing against your bitcoin instead of selling it: interest, a borrowing cap, and the lender's liquidation
     level;
   - swapping part of your bitcoin for STRC, Strategy's variable-rate preferred stock: its dividend rate and its
-    return-of-capital tax treatment (sources linked on the page);
+    return-of-capital tax treatment (sources linked on the page). The borrow and STRC paths sit under OG Mode;
+  - saving in STRC: a share of each year's savings buys STRC at $100. While you work, its dividends buy more
+    STRC; once you are free, they pay your costs first;
+  - Double Dipper: like Double Maxi, but half of what it moves, and half of your savings, go into STRC instead of
+    bitcoin;
   - bitcoin maturing: loan rates and STRC's dividend fall in a straight line to the mortgage rate by 2050;
   - a four-year cycle: bitcoin rises above its path, then falls a chosen share of its price the next year, each
     fall 15% smaller than the last, so you can see what crashes do to a loan;
